@@ -156,7 +156,7 @@ function MacLib:Window(Settings)
 	dividerInteract.BackgroundTransparency = 1
 	dividerInteract.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	dividerInteract.BorderSizePixel = 0
-	dividerInteract.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+	dividerInteract.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 	dividerInteract.Position = UDim2.fromScale(0.5, 0)
 	dividerInteract.Size = UDim2.new(1, 6, 1, 0)
 	dividerInteract.Text = ""
@@ -207,7 +207,7 @@ function MacLib:Window(Settings)
 
 	local exit = Instance.new("TextButton")
 	exit.Name = "Exit"
-	exit.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+	exit.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 	exit.Text = ""
 	exit.TextColor3 = Color3.fromRGB(0, 0, 0)
 	exit.TextSize = 14
@@ -225,7 +225,7 @@ function MacLib:Window(Settings)
 
 	local minimize = Instance.new("TextButton")
 	minimize.Name = "Minimize"
-	minimize.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+	minimize.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 	minimize.Text = ""
 	minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
 	minimize.TextSize = 14
@@ -244,7 +244,7 @@ function MacLib:Window(Settings)
 
 	local maximize = Instance.new("TextButton")
 	maximize.Name = "Maximize"
-	maximize.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+	maximize.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 	maximize.Text = ""
 	maximize.TextColor3 = Color3.fromRGB(0, 0, 0)
 	maximize.TextSize = 14
@@ -754,7 +754,7 @@ function MacLib:Window(Settings)
 
 	local interact = Instance.new("TextButton")
 	interact.Name = "Interact"
-	interact.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+	interact.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 	interact.Text = ""
 	interact.TextColor3 = Color3.fromRGB(0, 0, 0)
 	interact.TextSize = 14
@@ -1198,7 +1198,7 @@ function MacLib:Window(Settings)
 		local GlobalSettingFunctions = {}
 		local globalSetting = Instance.new("TextButton")
 		globalSetting.Name = "GlobalSetting"
-		globalSetting.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+		globalSetting.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 		globalSetting.Text = ""
 		globalSetting.TextColor3 = Color3.fromRGB(0, 0, 0)
 		globalSetting.TextSize = 14
@@ -1389,7 +1389,7 @@ function MacLib:Window(Settings)
 			local TabFunctions = {Settings = Settings}
 			local tabSwitcher = Instance.new("TextButton")
 			tabSwitcher.Name = "TabSwitcher"
-			tabSwitcher.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+			tabSwitcher.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 			tabSwitcher.Text = ""
 			tabSwitcher.TextColor3 = Color3.fromRGB(0, 0, 0)
 			tabSwitcher.TextSize = 14
@@ -2470,7 +2470,7 @@ function MacLib:Window(Settings)
 
 					local interact = Instance.new("TextButton")
 					interact.Name = "Interact"
-					interact.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+					interact.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 					interact.Text = ""
 					interact.TextColor3 = Color3.fromRGB(0, 0, 0)
 					interact.TextSize = 14
@@ -2722,7 +2722,7 @@ function MacLib:Window(Settings)
 					local function ToggleDropdown()
 						if db then return end
 						db = true
-						local defaultDropdownSize = 38
+						local defaultDropdownSize = 42
 						local isDropdownOpen = not dropped
 						local targetSize = isDropdownOpen and UDim2.new(1, 0, 0, CalculateDropdownSize()) or UDim2.new(1, 0, 0, defaultDropdownSize)
 
@@ -2756,7 +2756,7 @@ function MacLib:Window(Settings)
 					local function addOption(i, v)
 						local option = Instance.new("TextButton")
 						option.Name = "Option"
-						option.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+						option.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 						option.Text = ""
 						option.TextColor3 = Color3.fromRGB(0, 0, 0)
 						option.TextSize = 14
@@ -3085,7 +3085,7 @@ function MacLib:Window(Settings)
 
 					local interact = Instance.new("TextButton")
 					interact.Name = "Interact"
-					interact.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+					interact.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 					interact.Text = ""
 					interact.TextColor3 = Color3.fromRGB(0, 0, 0)
 					interact.TextSize = 14
@@ -3165,7 +3165,7 @@ function MacLib:Window(Settings)
 
 					local value = Instance.new("TextButton")
 					value.Name = "Value"
-					value.FontFace = Font.new("rbxasset://fonts/families/SourceSansBold.json")
+					value.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json")
 					value.Text = ""
 					value.TextColor3 = Color3.fromRGB(0, 0, 0)
 					value.TextSize = 14
