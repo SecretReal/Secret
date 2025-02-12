@@ -2722,7 +2722,7 @@ function MacLib:Window(Settings)
 					local function ToggleDropdown()
 						if db then return end
 						db = true
-						local defaultDropdownSize = 42
+						local defaultDropdownSize = 38
 						local isDropdownOpen = not dropped
 						local targetSize = isDropdownOpen and UDim2.new(1, 0, 0, CalculateDropdownSize()) or UDim2.new(1, 0, 0, defaultDropdownSize)
 
