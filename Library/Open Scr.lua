@@ -16,7 +16,7 @@ getgenv().Settings = {
 	UiSetting = {
 		Keybind = Enum.KeyCode.RightControl,
 		Color = {
-			MainColor = Color3.fromRGB(213, 55, 102),
+			MainColor = Color3.fromRGB(75,0,130),
 			MainBackground = Color3.fromRGB(15, 15, 15),
 			MinBackground = Color3.fromRGB(17, 17, 17)
 		}
